@@ -26,13 +26,16 @@ const Contact = () => {
     });
 
     try {
-      const response = await fetch("https://dental-clinic-twpc.onrender.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "https://dental-clinic-twpc.onrender.com/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Something went wrong! Please try again.");
