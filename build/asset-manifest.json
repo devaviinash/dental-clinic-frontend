@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1969ddd9.css",
+    "main.js": "/static/js/main.08bc081f.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/home.png": "/static/media/home.18b867373a5b47512d8c.png",
+    "static/media/qr.png": "/static/media/qr.939d2ace6ca885bafa87.png",
+    "static/media/theodat.png": "/static/media/theodat.d845595d9563b86c26d8.png",
+    "static/media/consultation.jpg": "/static/media/consultation.3cd2667110d290dc567b.jpg",
+    "static/media/extraction.jpg": "/static/media/extraction.c178371cc348ecb44703.jpg",
+    "static/media/xray.jpeg": "/static/media/xray.611a615963c83c0e934e.jpeg",
+    "static/media/inflamation.jpg": "/static/media/inflamation.55cc304edaef69b727ee.jpg",
+    "static/media/rootcanal.jpeg": "/static/media/rootcanal.fa59cea963cea667a75d.jpeg",
+    "static/media/gateme.png": "/static/media/gateme.679bf1a15f35fd54c1a4.png",
+    "static/media/olivier.png": "/static/media/olivier.7db966c29537e08e4be3.png",
+    "static/media/arriana.png": "/static/media/arriana.7fa839bd6cb9223dc696.png",
+    "static/media/braces.jpeg": "/static/media/braces.5c03b1d6a2d4ad393799.jpeg",
+    "static/media/chance.png": "/static/media/chance.214ea5226a7800d0ce75.png",
+    "static/media/beautiful-smile.jpg": "/static/media/beautiful-smile.d91bad9ccefd43359ef7.jpg",
+    "static/media/crown.jpeg": "/static/media/crown.723049b1d82618dd2c1f.jpeg",
+    "index.html": "/index.html",
+    "main.1969ddd9.css.map": "/static/css/main.1969ddd9.css.map",
+    "main.08bc081f.js.map": "/static/js/main.08bc081f.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1969ddd9.css",
+    "static/js/main.08bc081f.js"
+  ]
+}
