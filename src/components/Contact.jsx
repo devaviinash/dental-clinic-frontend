@@ -274,7 +274,7 @@ const Contact = () => {
               }`}
               disabled={isLoading}
             >
-              {isLoading ? "Booking appointment..." : "Book Appointment"}
+              {isLoading ? "Booking appointment..." : "Request Appointment"}
             </button>
           </div>
         </form>
