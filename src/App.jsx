@@ -11,7 +11,7 @@ import FAQs from "./components/FAQs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Features from "./components/Features";
-import Events from "./components/Events";
+import Index from "./components/Index";
 import MapReview from "./components/MapReview";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <Events />
+      <Index />
       <Services />
       <Features />
       <Team />

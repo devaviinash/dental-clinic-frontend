@@ -97,20 +97,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center p-6 border-t border-gray-700 text-base text-gray-400">
+      <div className="flex justify-between items-center py-6 px-1 border-t border-gray-700 text-sm text-gray-400">
         <p>
-          &copy; {new Date().getFullYear()} Guru Nanak Dental. All rights
+          &copy; {new Date().getFullYear()} Guru Nanak Dental. <br /> All rights
           reserved.
         </p>
         <p>
           Developed by{" "}
           <a
-            href="https://twitter.com/AviinashChavan" // Replace with your Twitter link
+            href="https://wa.me/919970933226?text=Hi,%20I%20found%20you%20through%20Guru%20Nank%20Dental%20website%20and%20would%20like%20to%20request%20an%20appointment."
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
+            className="text-blue-500 transition-colors duration-300"
           >
-            Avinash
+            Avinash Chavan
           </a>
         </p>
       </div>

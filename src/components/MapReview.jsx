@@ -16,13 +16,13 @@ const MapReview = () => {
             </div>
             <div className="text-center">
               <span className="inline-flex rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
-                Share Your Experience
+                Follow us on Instagram
               </span>
               <h2 className="mt-4 text-xl font-semibold tracking-tight md:text-2xl">
-                Scan to Leave a Review
+                Scan to Connect
               </h2>
               <p className="mt-2 text-sm text-gray-600 md:text-base">
-                We value your feedback. Scan the QR code to share your thoughts.
+                Scan the QR code & be a part of our instagram community!
               </p>
             </div>
           </div>

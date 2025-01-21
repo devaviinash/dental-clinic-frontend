@@ -7,15 +7,16 @@ const Hero = () => {
   return (
     <main>
       <div className="" name="home">
-        <div className="mx-auto h-full px-4 py-10 sm:max-w-xl md:max-w-full md:px-24 md:py-36 lg:px-8">
+        <div className="mx-auto h-full px-4 py-3 sm:max-w-xl md:max-w-full md:px-24 md:py-32 lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="">
               <div className="lg:max-w-xl lg:pr-5">
-                <h2 className="md:mt-0 mt-24  mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-blue-600 sm:text-8xl">
-                  Meet your <br />
+                <h2 className="md:mt-0 mt-24  mb-6 max-w-lg text-2xl font-light leading-snug tracking-tight text-blue-600 sm:text-8xl">
+                  Meet your Dentist
+                  <br />
                   <span className="my-1 inline-block border-b-8 border-blue-600 font-bold text-blue-600">
                     {" "}
-                    Dentist{" "}
+                    Dr. Gurusharan Bhatia{" "}
                   </span>
                 </h2>
 
@@ -132,16 +133,9 @@ const Hero = () => {
                   />
                 </svg>
                 <Fade>
-                  <img
-                    className="-mb-20"
-                    src={homepicture}
-                    alt="hero portrait"
-                  />
+                  <img className="" src={homepicture} alt="hero portrait" />
                 </Fade>
               </div>
-              <h1 className="text-4xl mt-6 ml-4 font- font-extrabold text-blue-800">
-                Dr. Gurusharan Bhatia
-              </h1>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        "https://dental-clinic-twpc.onrender.com/send-email",
+        "https://dental-clinic-r2gp.onrender.com/send-email",
         {
           method: "POST",
           headers: {
@@ -62,7 +62,8 @@ const Contact = () => {
             Contact
           </p>
           <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
-            Get In <span className="text-[#3b82f6]">Touch</span>
+            Let's <span className="text-[#3b82f6]">Schedule</span> your{" "}
+            <span className="text-[#3b82f6]">Smile Care</span>
           </h3>
           <p className="mt-4 leading-6 text-gray-950">
             Book an appointment with our doctor, we are ready and waiting to
@@ -256,7 +257,8 @@ const Contact = () => {
           <div className="flex justify-between items-center mb-3">
             {isSent && (
               <p className="text-green-500 font-medium">
-                Your message has been sent successfully!
+                Your request has been received! Our team will confirm the
+                details with you soon.
               </p>
             )}
             {error && <p className="text-red-500 font-medium">{error}</p>}

@@ -26,8 +26,8 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: "events",
-      label: "Events",
+      link: "gallery",
+      label: "Gallery",
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const Navbar = () => {
   ];
 
   const scrollToTop = () => {
-    scroll.scrollToTop();
+    scroll.scrollTo();
   };
 
   const toggleMenu = () => {

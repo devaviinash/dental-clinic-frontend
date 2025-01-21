@@ -1,13 +1,13 @@
 import React from "react";
-import Arriana from "./Images/arriana.png";
-import Chance from "./Images/chance.png";
-import Gateme from "./Images/gateme.png";
-import Theodat from "./Images/theodat.png";
+import Arriana from "./Images/250x250.png";
+import Chance from "./Images/250x250.png";
+import Gateme from "./Images/250x250.png";
+import Theodat from "./Images/250x250.png";
 import { Fade } from "react-awesome-reveal";
 
 const Team = () => {
   return (
-    <section className="mt-16  bg-slate-100 " id="team">
+    <section className="mt-16 mb-20  bg-slate-100 " id="team">
       <div className="container px-6 py-12 mx-auto">
         <Fade>
           <header className="">
@@ -68,7 +68,9 @@ const Team = () => {
             />
 
             <div className="mt-2">
-              <h3 className="text-md font-bold text-gray-700">GATEME Gaby </h3>
+              <h3 className="text-md font-bold text-gray-700">
+                Dr. Ajit Sinha
+              </h3>
               <span className="mt-1 font-medium text-gray-600 ">
                 Orthodontist
               </span>
@@ -84,7 +86,7 @@ const Team = () => {
 
             <div className="mt-2">
               <h3 className="text-md font-bold text-gray-700 ">
-                MAHORO Eunice
+                Dr. Jyoti Thapa
               </h3>
               <span className="mt-1 font-medium text-gray-600 ">Therapist</span>
             </div>
@@ -99,7 +101,7 @@ const Team = () => {
 
             <div className="mt-2">
               <h3 className="text-md font-bold text-gray-700 ">
-                IBAKA M. Theodat
+                Dr. Gurusharan Bhatia
               </h3>
               <span className="mt-1 font-medium text-gray-600 ">
                 Dental Surgeon
@@ -116,7 +118,7 @@ const Team = () => {
 
             <div className="mt-2">
               <h3 className="text-md font-bold text-gray-700 ">
-                DUKUNDE Arriana
+                Pramila Shrestha
               </h3>
               <span className="mt-1 font-medium text-gray-600 ">Assistant</span>
             </div>

@@ -53,22 +53,6 @@ const Features = () => {
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
               <div className="flex text-4xl items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                😀
-              </div>
-              <h6 className="mb-2 font-semibold leading-5">
-                Virtual Consultation{" "}
-              </h6>
-              <p className="mb-3 text-sm text-gray-900">
-                Embracing Technology for your convenience, we understand that
-                your time is valuable, explore treatments where you are.
-              </p>
-            </div>
-          </div>
-        </Fade>
-        <Fade>
-          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
-            <div>
-              <div className="flex text-4xl items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                 ☺️
               </div>
               <h6 className="mb-2 font-semibold leading-5">Online Booking</h6>
@@ -106,6 +90,22 @@ const Features = () => {
               <p className="mb-3 text-sm text-gray-900">
                 Whether your require cosmetic, restorative, pediatric,
                 orthodontic procedures and more. Our team awaits you.
+              </p>
+            </div>
+          </div>
+        </Fade>
+        <Fade>
+          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+            <div>
+              <div className="flex text-4xl items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                😊
+              </div>
+              <h6 className="mb-2 font-semibold leading-5">
+                Patient Education
+              </h6>
+              <p className="mb-3 text-sm text-gray-900">
+                Empowering you with knowledge for a healthier smile. We believe
+                in educating our patients on oral hygiene practices.
               </p>
             </div>
           </div>
